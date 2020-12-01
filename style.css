@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #F2C94C;
+    --black: #333333;
+    --width-break:600px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+    padding: 0.776rem;
+}
+
+nav span{
+    color: #ff022c;
+}
+
+main {
+    margin: auto;
+    padding: 0.111rem;
+    max-width: var(--width-break);
+}
+
+
+span::before {
+        content: '';
+        position: absolute;
+        left: 120%;
+        width: 100%;
+        height: 10%;
+        background: linear-gradient(90deg, transparent 0%, #000 5%, #000 50%);
+        animation: animate 5.5s linear forwards;
+        animation-delay: 0.5s;
+    }
+
+    @keyframes animate
+     {
+         0%
+         {
+            left: 110%;
+         }
+
+         100%
+         {
+             left: -150%;
+         }
+
+    }
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 90%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+    color: darkgreen;
+}
+
+button {
+    background-color: chocolate;
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 4rem;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: large;
+    
+}
+
+
+#output {
+    box-sizing: border-box;
+    width: 90%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow:scroll;
+    border: 1px solid var(--black);
+    color: crimson;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0.15rem;
+    background-color: black;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.86rem;
+    padding: 0.145rem;
+    margin: auto;
+    color:whitesmoke;
+}
+
+
+
