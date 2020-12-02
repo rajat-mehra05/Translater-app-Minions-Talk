@@ -1,3 +1,8 @@
+# Image in ReadMe
+
+![](output.png)
+
+
 # web-app
 
 This web app has been built using vanilla.js. I have added some CSS which beautifies a bit more! 
