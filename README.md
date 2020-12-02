@@ -1,4 +1,4 @@
-# Image in ReadMe
+# Image-output
 
 ![](output.png)
 
